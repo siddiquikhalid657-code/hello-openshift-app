@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/YOUR_USERNAME/hello-openshift-app.git'
+                    url: 'https://github.com/siddiquikhalid657-code/hello-openshift-app.git'
             }
         }
 
